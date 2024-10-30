@@ -1,0 +1,1417 @@
+
+@font-face {
+    font-family: 'open_sansregular';
+    src: url('../fonts/opensans-regular.eot');
+    src: url('../fonts/opensans-regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/opensans-regular.woff') format('woff'),
+         url('../fonts/opensans-regular.ttf') format('truetype'),
+         url('../fonts/opensans-regular.svg#open_sansregular') format('svg');
+    font-weight: normal ;
+    font-style: normal;
+}
+
+/* For Fundraiser List css */
+
+
+#iDonateMain {
+    background: #fff none repeat scroll 0 0;
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+	font-family: 'open_sansregular' !important;
+    font-size: 14px;
+	float:left;
+	overflow-y: auto;
+	font-weight: normal;
+	line-height: normal;
+
+}
+
+#iDonateMain h1,#iDonateMain  h2, #iDonateMain h3, #iDonateMain h4, #iDonateMain h5 {
+	font-weight: normal;
+	line-height: normal;
+}
+
+#idonateTable a {
+color : #ea6a00 !important;
+}
+
+#idonateTable a:hover {
+color : #ea6a00 !important;
+}
+
+#idonateTable a:active {
+color : #ea6a00 !important;
+}
+
+.iDonateFundListImg {
+	float: left;
+}
+
+.iDonateFundName {
+	text-indent:10px;
+}
+
+.iDonateH2 {
+	color: #58453c;
+    font-size: 24px !important;
+	font-weight:bold !important;
+    padding: 0 !important;
+	margin: 10px 0 !important;
+	line-height: normal !important;
+}
+
+.iDonateHeader {
+    border-bottom: 1px solid #ccc;
+    padding: 5px 0;
+    width: 100%;
+}
+
+
+
+#iDonateMain button, #iDonateMain input, #iDonateMain select, #iDonateMain textarea, #iDonateMain a, #iDonateMain span, #iDonateMain div, #iDonateMain label, #iDonateMain ul, #iDonateMain li {
+	font-family: 'open_sansregular' !important;
+	box-shadow: none;
+}
+
+#iDonateMain table {
+font-size:14px;
+}
+
+
+#idonateTable_filter input {
+	background: #fff none repeat scroll 0 0 !important;
+    height: 30px !important;
+    width: 70% ;
+	padding: 0 5px !important;
+	border: 1px solid #cccccc !important;
+}
+
+#idonateTable_filter {
+    width: 70%;
+	padding: 10px 0;
+}
+
+#idonateTable_length {
+	width: 30%;
+	padding: 10px 0;
+}
+
+#iDonateMain a.paginate_button.current {
+	background: #337ab7 !important;
+    border-color: #337ab7 !important;
+    color: #fff !important;
+    cursor: default !important;
+    z-index: 3 !important;
+}
+
+#iDonateMain a.paginate_button {
+	line-height: 1.42857;
+    margin-left: -1px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+	border:1px solid #ddd;
+	color: #337ab7 !important;
+	font-size:14px;
+}
+
+#iDonateMain a.paginate_button:hover {
+	background: #eee;
+    border-color: #ddd;
+    z-index: 2;
+	line-height: 1.42857;
+    margin-left: -1px;
+    padding: 6px 12px;
+    position: relative;
+    text-decoration: none;
+}	
+
+#iDonateMain div.dataTables_paginate {
+	border-radius: 4px;
+    display: inline-block;
+	margin: 2px 0;
+    white-space: nowrap;
+}
+
+#iDonateMain a.paginate_button.previous {
+	border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    margin-left: 0;
+}	
+
+#iDonateMain a.paginate_button.next {
+	border-bottom-right-radius: 4px;
+	border-top-right-radius: 4px;
+}
+
+.dataTables_info {
+    font-size: 14px;
+}
+
+/* For Fundraiser List css */
+
+/* For Fundraiser Details css */
+
+.iDonateFundDetailH2 {
+	color: #58453c !important;
+    font-size: 24px !important;
+	font-weight:bold !important;
+    padding: 0 !important;
+	margin: 10px 0 !important;
+	line-height: normal !important;
+
+}
+
+.iDonateFundDetailContent {
+    margin: 0;
+    padding: 9px 0 0;
+    width: 100%;
+	float: left;
+}
+
+.iDonateFundDetailContentWrapper {
+    padding: 0 0 9px;
+}
+
+.iDonateFundDetailContentWrapperMiddle {
+    overflow: hidden;
+    padding: 0 5px 0 4px;
+}
+
+.iDonateFundDetailContentWrapperMiddle.iDonte_content_in{
+	padding: 10px 20px;
+	color: #666;
+}
+
+.iDonateFundDetailContentMainintro {
+	background: #f2f7fb none repeat scroll 0 0;
+    border-radius: 5px;
+    margin: 0 0 10px;
+    padding: 10px;
+	float: left;
+	width: 100%;
+	overflow: auto;
+}
+
+.iDonateFundDetailContentProfile_info {
+	min-width: 1020px;
+    overflow-y: auto;
+}
+
+.iDonateFundDetailContentLeft-profile {
+    margin: 0 10px 0 0;
+    min-width: 200px;
+    width: 23%;
+	float: left;
+}
+
+.iDonateProfile_img {
+	background: #fff none repeat scroll 0 0;
+    border: 1px solid #e7e7e7 !important;
+    border-radius: 0;
+    margin: 0 0 5px;
+    padding: 10px;
+}
+
+.iDonatebluearw {
+	background: rgba(0, 0, 0, 0) url("../images/bluearw.png") no-repeat scroll 0 0;
+    height: 15px;
+    margin: 0 0 0 12px;
+    width: 21px;
+}
+
+.iDonateevent_status {
+	background: #0092d4 none repeat scroll 0 0;
+    box-shadow: 1px 1px 1px #294357;
+    color: #fff;
+	min-height: 50px;
+    padding: 5px 0 5px 10px;
+}
+
+.iDonatetrigger a {
+	color: #fff !important;
+    cursor: pointer;
+	text-decoration:none;
+}
+
+.iDonatebubbleInfo .iDonatepopup {
+	background: #f2f2f2 none repeat scroll 0 0;
+    border: 1px solid #e7e7e7;
+    color: #333333;
+    display: none;
+    padding: 5px 5px 0 15px;
+    position: absolute;
+    width: 300px;
+}
+
+
+.iDonateFundDetailContentRight-profile {
+    float: left;
+    min-width: 400px;
+    width: 50%;
+}	
+
+.iDonateFundDetailContentRight-profileH2 {
+	color: #5d5d5d !important;
+    font-size: 22px !important;
+    font-weight: bold !important;
+    margin: 5px 0 25px !important;
+	line-height: normal !important;
+}
+
+.iDonateclearDiv {
+	clear: both;
+    height: 0;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+}
+
+.iDonatecevent_detailsH3 {
+	color: #0092d4 !important;
+    font-size: 22px !important;
+    margin: 0 0 25px !important;
+    text-transform: none !important;
+	line-height: normal !important;
+}
+
+.iDonateevent_details_left {
+	float: left;
+    width: 45%;
+	min-width: 160px;
+	font-size: 12px;
+}
+
+.iDonateevent_details_right {
+	float: left;
+    width: 45%;
+	font-size: 12px;
+}
+
+.iDonateevent_link_left {
+	float:left;
+	width: 100%;
+}
+
+.iDonateevent_link_left h3 {
+	font-size: 18px;
+	line-height: normal !important;
+}
+
+.iDonateevent_link_left img {
+	border-radius: 5px;
+    margin: 10px;
+	float : left;
+	height: 32px !important;
+	width: 32px !important;
+}
+
+
+.iDonatebtnDV {
+	
+background: #fcca20 !important;
+background: -moz-linear-gradient(top, #fcca20 0%, #deac05 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, #fcca20), color-stop(100%, #deac05));
+background: -webkit-linear-gradient(top, #fcca20 0%, #deac05 100%);
+background: -o-linear-gradient(top, #fcca20 0%, #deac05 100%);
+background: -ms-linear-gradient(top, #fcca20 0%, #deac05 100%);
+background: linear-gradient(to bottom, #fcca20 0%, #deac05 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#fcca20', endColorstr='#deac05', GradientType=0 );
+
+	padding:5px 10px  !important;
+	float:left !important;
+	border-radius: 5px !important;
+	text-align:center !important;
+	max-width: 220px !important;
+}
+
+.iDonatebtnDV a {
+	background-position: right bottom !important;
+    color: #342c29  !important;
+    cursor: pointer  !important;
+    display: inline-block  !important;
+    font-size: 16px  !important;
+    font-weight: bold  !important;
+    padding: 0 18px  !important;
+    text-shadow: 1px 1px #f7c51a, 0 0 #f7c51a  !important;
+	text-decoration:none  !important;
+	border: none !important;
+}
+
+.iDonatebtnDV a:hover {
+    color: #342c29  !important;
+	text-decoration:none  !important;
+	    cursor: pointer  !important;
+    display: inline-block  !important;
+    font-size: 16px  !important;
+    font-weight: bold  !important;
+    padding: 0 18px  !important;
+    text-shadow: 1px 1px #f7c51a, 0 0 #f7c51a  !important;
+	text-decoration:none  !important;
+
+}
+
+.iDonatebtnDV a:active {
+    color: #342c29;
+	text-decoration:none;
+	    cursor: pointer  !important;
+    display: inline-block  !important;
+    font-size: 16px  !important;
+    font-weight: bold  !important;
+    padding: 0 18px  !important;
+    text-shadow: 1px 1px #f7c51a, 0 0 #f7c51a  !important;
+	text-decoration:none  !important;
+
+}
+
+.iDonatebtnDV.iDonatesponsor a {
+	font-size: 13px;
+	padding: 0;
+}
+
+.iDonaterunning-total {
+	-moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background: #fff none repeat scroll 0 0;
+    border-color: #e7e7e7 #e7e7e7 -moz-use-text-color;
+    border-image: none;
+    border-style: solid solid none;
+    border-width: 1px 1px medium;
+    float: left;
+    min-height: 290px;
+    min-width: 200px;
+    padding: 10px;
+    width: 25%;
+}
+
+.iDonaterunning-totalH3 {
+	color: #0092d4 !important;
+    float: left !important;
+    font-size: 13px !important;
+    margin: 0 0 15px !important;
+    text-transform: none !important;
+    width: 100% !important;
+	line-height: normal !important;
+}
+
+.iDonaterunning-totalH3 span {
+	float:right;
+	color:#FF3333;
+}
+
+.iDonateleftDiv {
+    float: left;
+    width: auto;
+}
+
+.iDonatetargetDetail {
+	float: left;
+    width: 60%;
+}
+
+.iDonatetargetDetail dl {
+    font-size: 12px;
+    margin: 0;
+    word-wrap: break-word;
+	max-width: 150px;
+    width: 100%;
+}
+
+.iDonatetargetDetail dl {
+    font-size: 12px;
+    margin: 0;
+    word-wrap: break-word;
+}
+
+.iDonatetargetDetail dd {
+    margin: 0 0 10px;
+}
+
+
+
+#vm-countdown {
+	margin: 0 10px 0 0;
+    text-align: center;
+	background: rgba(0, 0, 0, 0) url("../images/bg-repeat.png") repeat-x scroll left top;
+    float: left;
+	min-width: 165px;
+	width:100%;
+	max-width:200px;
+}
+
+#vm-countdown div {
+    background: rgba(0, 0, 0, 0) url("../images/bg-left.png") no-repeat scroll left top;
+}
+
+#vm-countdown div div {
+    background: rgba(0, 0, 0, 0) url("../images/bg-right.png") no-repeat scroll right top;
+}
+
+#vm-countdown .content span {
+    display: none;
+    text-indent: 99999px;
+}
+
+#vm-countdown .content {
+    height: 82px;
+    line-height: 90px;
+    min-width: 80px;
+    padding: 0 53px;
+    text-align: center;
+}
+
+#vm-countdown .content strong {
+    font-size: 1.33em;
+    font-weight: bold;
+    letter-spacing: -1px;
+    padding-left: 7px;
+    padding-right: 24px;
+}
+
+.iDonateevent_calendar {
+	float: left;
+    margin: 10px 0 0;
+    width: 100%;
+}
+
+.iDonatemain_sections {
+	margin: 0 0 10px;
+}
+
+.iDonateleftsection {
+	float: left;
+    /*min-width: 160px;*/
+    width: 30%;
+	/*overflow-y: auto;*/
+}
+
+.iDonateleftsection .iDonateboxouter {
+	border: 1px solid #e7e7e7;
+    float: left;
+    margin: 0 0 10px;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+	overflow-y: auto;
+	display: none;
+}
+
+.iDonaterightsection .iDonateboxouter {
+	border: 1px solid #e7e7e7;
+    float: left;
+    margin: 0 0 10px;
+    padding: 10px 0 10px 10px;
+    width: 100%;
+	overflow-y: auto;
+}
+
+.iDonateboxouter h3 {
+	color: #0092d4 !important;
+    float: left !important;
+    font-size: 20px !important;
+    margin: 0 0 25px !important;
+    text-transform: none !important;
+    width: 100% !important;
+	line-height: normal !important;
+}
+
+.iDonateblueborder_left {
+	background: #0092d4 none repeat scroll 0 0;
+    float: right;
+    height: 1px;
+    margin: 12px 0 0 8px;
+    min-width: 11%;
+	display:none;
+}
+
+.iDonateblueborder_right {
+	background: #0092d4 none repeat scroll 0 0;
+    float: right;
+    height: 1px;
+    margin: 12px 0 0 8px;
+    min-width: 21%;
+	display:none;
+}
+
+.iDonatecharity_logo_main {
+    display: inline-block;
+    float: left;
+    width: 100%;
+	border-bottom: 1px solid #e4e4e4 ;
+	padding-bottom: 10px;
+}
+
+.iDonatecharity_logo_main img {
+    margin: 10px 10px 10px 0;
+}
+
+.iDonatecharity_logo_main:last-child {
+	border-bottom: none !important;
+}
+
+.iDonateshare_box h4{ 
+	font-size: 12px !important;
+    margin: 10px 0 !important;
+	font-weight:bold !important;
+}	
+
+.iDonateshare_box a{ 
+	color: #ea6a00 !important;
+	border: none !important;
+}
+
+.iDonateshare_box a:hover{ 
+	color: #ea6a00;
+	border: none !important;
+}	
+
+.iDonateshare_box a:active{ 
+	color: #ea6a00;
+	border: none !important;
+}
+
+.iDonatelinkArw {
+	border:none !important;
+}	
+
+.iDonateboxouter ul.iDonatenodot {
+    float: left;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.iDonateboxouter ul.iDonatenodot li {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    display: inline-block;
+    float: left;
+    list-style: outside none none;
+    padding: 2px 0;
+}
+
+.pirobox_gall {
+    margin: 0;
+    padding: 0;
+}
+
+.iDonateboxouter ul.iDonatenodot li img {
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 48px;
+    margin: 10px;
+    width: 48px;
+}
+
+.iDonaterightsection {
+	float: left;
+	margin: 0 0 0 2%;
+	width: 68%;
+	/*min-width:160px;*/
+	
+}
+
+.iDonateboxouter .iDonateblog_info h4 {
+    background: rgba(0, 0, 0, 0) url("../images/blog_icon.png") no-repeat scroll 0 5px;
+    border-top: 1px dotted #cbcaca;
+    font-size: 12px;
+    padding: 5px 0 5px 30px;
+}
+
+.iDonateboxouter .iDonateblog_info h4 a {
+	color: #ea6a00 !important;
+	border: none !important;
+}
+
+.iDonateboxouter .iDonateabout_text {
+     padding: 0 10px 0 0;
+    text-align: justify;
+	font-family:13px;
+}
+
+.iDonaterecent-donors {
+	min-width: 480px;
+	overflow-y: auto;
+}
+
+.iDonatecharity_info {
+	padding: 0 10px 0 0;
+	text-align: justify;
+}
+
+.iDonatecharity_main {
+	margin: 0 0 10px;
+	border-bottom: 1px solid #bfbfbf;
+    display: block;
+    padding-bottom: 10px;
+}
+
+.iDonatecharity_image {
+    float: right;
+    width: 150px;
+}
+
+.iDonatecharity_image img {
+    margin: 0 0 10px 10px;
+    width: 135px;
+}
+
+.iDonatecharity_desc {
+    padding-left: 2px;
+	font-size: 13px;
+}
+
+.iDonatecharity_main:last-child {
+	border-bottom: none;
+}
+
+.iDonatelinkArw {
+    background: rgba(0, 0, 0, 0) url("../images/arwRight.png") no-repeat scroll right 6px;
+    color: #ea6a00;
+    font-family: "open_sansregular";
+    font-size: 13px;
+    padding-right: 19px;
+}
+
+.iDonateResponsiveTable {
+	min-width: 280px;
+}
+
+#simplbox {
+  z-index: 9999; /* Use whatever you want */
+  ms-touch-action: none; /* Removes touch action */
+  touch-action: none; /* Removes touch action */
+}
+
+
+#simplbox-loading {
+    left: 50%;
+    position: fixed;
+    top: 50%;
+    z-index: 10003;
+}
+#simplbox-loading::before {
+    animation: 1s linear 0s normal none infinite running loader;
+    background-color: #ccc;
+    border-radius: 50%;
+    content: "";
+    display: block;
+    height: 8px;
+    transform-origin: 8px 8px 0;
+    width: 8px;
+}
+@keyframes loader {
+	0% {
+		opacity: 1;
+		transform: rotate(360deg) scale(1.5);
+	}
+	50% {
+		opacity: 0.5;
+		transform: rotate(180deg) scale(1);
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(0deg) scale(1.5);
+	}
+}
+@keyframes loader {
+	0% {
+		opacity: 1;
+		transform: rotate(360deg) scale(1.5);
+	}
+	50% {
+		opacity: 0.5;
+		transform: rotate(180deg) scale(1);
+	}
+	100% {
+		opacity: 1;
+		transform: rotate(0deg) scale(1.5);
+	}
+}
+#simplbox-close {
+    background-color: #f4f4f4;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 2.3em;
+    position: fixed;
+    right: 2em;
+    text-align: center;
+    top: 2em;
+    width: 2.3em;
+    z-index: 10002;
+}
+#simplbox-close::before, #simplbox-close::after {
+    background-color: #404040;
+    bottom: 20%;
+    content: "";
+    left: 50%;
+    margin-left: -1px;
+    position: absolute;
+    top: 20%;
+    width: 2px;
+}
+#simplbox-close::after {
+    transform: rotate(45deg);
+}
+#simplbox-close::before {
+    transform: rotate(-45deg);
+}
+#simplbox-overlay {
+    background-color: rgba(0, 0, 0, 0.9);
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 9998;
+}
+#simplbox-caption {
+    background-color: #f4f4f4;
+    bottom: 0;
+    color: #404040;
+    font-size: 18px;
+    left: 0;
+    padding: 13px;
+    position: fixed;
+    right: 0;
+    text-align: center;
+    z-index: 10001;
+}
+
+/* For Fundraiser Details css */
+
+
+/* Portrait and Landscape */
+
+
+/* Portrait */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  and (orientation: portrait) {
+
+
+.iDonateFundDetailContentWrapperMiddle.iDonte_content_in {
+	padding: 10px;
+}
+
+#idonateTable_length {
+ width: 100%;
+}
+
+#idonateTable_filter {
+ width: 100%;
+}
+
+.iDonateFundDetailContentLeft-profile {
+	margin: 0;
+    width: 100%;
+	min-width: inherit;
+}
+
+.iDonateFundDetailContentRight-profile {
+    width: 100%;
+	min-width: inherit;
+}
+
+.iDonateFundDetailContentRight-profileH2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0 20px;
+	line-height: normal !important;
+}
+
+.iDonatecevent_detailsH3 {
+	font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 25px;
+	line-height: normal !important;
+}
+
+.iDonatebtnDV a {
+	padding: 0 5px;
+	font-size: 13px;
+}
+
+.iDonateevent_details_left {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.iDonateevent_details_right {
+	width: 100%;
+}
+
+.iDonaterunning-total {
+	width: 100%;
+	min-width: inherit;
+}
+
+.iDonateleftDiv {
+	width: 100%;
+}
+
+.iDonatetargetDetail {
+	margin-top: 35px;
+    width: 100%;
+}
+
+.iDonatemain_sections {
+	width:100%;
+}
+
+.iDonateleftsection {
+	width:100%;
+}
+
+.iDonateboxouter {
+	width:100%;
+	overflow-y: hidden;
+}
+
+.iDonateboxouter h3 {
+	color: #0092d4;
+    float: left;
+    font-size: 20px;
+    margin: 0 0 25px;
+    text-transform: none;
+    width: 100%;
+	line-height: normal !important;
+}
+
+.iDonatecharity_logo_main {
+	padding-bottom: 10px;
+    width: 100%
+}
+
+.iDonatecharity_logo_main img {
+	width: 98%;
+	margin: 10px 0;
+}
+
+.iDonaterightsection {
+	width: 100%;
+	 margin: 0;
+}
+
+.iDonaterightsection .iDonateboxouter {
+	padding: 10px 0px 10px 10px;
+}
+
+.iDonatecharity_image {
+	width: 100%;
+}
+
+.iDonateFundDetailContentProfile_info {
+	min-width: 100%;
+    overflow-y: auto;
+}
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 320px) 
+  and (max-width: 480px)
+  and (orientation: landscape) {
+
+.iDonateFundDetailContentWrapperMiddle.iDonte_content_in {
+	padding: 10px;
+}
+
+.iDonateFundDetailContentLeft-profile {
+	margin: 0;
+    width: 100%;
+	min-width: inherit;
+}
+
+.iDonateFundDetailContentRight-profile {
+    width: 100%;
+	min-width: inherit;
+}
+
+.iDonateFundDetailContentRight-profileH2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0 20px;
+	line-height: normal !important;
+}
+
+.iDonatecevent_detailsH3 {
+	font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 25px;
+	line-height: normal !important;
+}
+
+.iDonateevent_details_left {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.iDonateevent_details_right {
+	width: 100%;
+}
+
+.iDonaterunning-total {
+	width: 100%;
+	min-width: inherit;
+}
+
+.iDonateleftDiv {
+	width: 40%;
+}
+
+.iDonatetargetDetail {
+	margin-top: 35px;
+    width: 60%;
+
+}
+
+.iDonatemain_sections {
+	width:100%;
+}
+
+.iDonateleftsection {
+	width:100%;
+}
+
+.iDonateboxouter {
+	width:100%;
+	overflow-y: hidden;
+}
+
+.iDonateboxouter h3 {
+	color: #0092d4;
+    float: left;
+    font-size: 20px;
+    margin: 0 0 25px;
+    text-transform: none;
+    width: 100%;
+	line-height: normal !important;
+}
+
+.iDonatecharity_logo_main {
+	padding-bottom: 10px;
+    width: 100%
+}
+
+.iDonatecharity_logo_main img {
+	width: 98%;
+	margin: 10px 0;
+}
+
+.iDonaterightsection {
+	width: 100%;
+	 margin: 0;
+}
+
+.iDonaterightsection .iDonateboxouter {
+	padding: 10px 0px 10px 10px;
+}
+
+.iDonatebtnDV {
+	width: 70%;
+}
+
+.iDonatebtnDV a {
+	font-size: 12px;
+}
+
+.iDonateFundDetailContentProfile_info {
+	min-width: 100%;
+    overflow-y: hidden;
+}
+
+}
+
+/* ----------- iPhone 6 ----------- */
+
+/* Portrait and Landscape */
+
+/* Portrait */
+@media only screen 
+  and (min-width: 360px) 
+  and (max-width: 640px) 
+  and (orientation: portrait) { 
+
+.iDonateFundDetailContentWrapperMiddle.iDonte_content_in {
+	padding: 10px;
+}
+
+.iDonateFundDetailContentLeft-profile {
+	margin: 0;
+    width: 100%;
+	min-width: inherit;
+}
+
+.iDonateFundDetailContentRight-profile {
+    width: 100%;
+	min-width: inherit;
+}
+
+.iDonateFundDetailContentRight-profileH2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0 20px;
+	line-height: normal !important;
+}
+
+.iDonatecevent_detailsH3 {
+	font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 25px;
+	line-height: normal !important;
+}
+
+.iDonateevent_details_left {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.iDonateevent_details_right {
+	width: 100%;
+}
+
+.iDonaterunning-total {
+	width: 100%;
+	min-width: inherit;
+}
+
+.iDonateleftDiv {
+	width: 40%;
+}
+
+.iDonatetargetDetail {
+	margin-top: 0;
+    width: 60%;
+
+}
+
+.iDonatemain_sections {
+	width:100%;
+}
+
+.iDonateleftsection {
+	width:100%;
+}
+
+.iDonateboxouter {
+	width:100%;
+	overflow-y: hidden;
+}
+
+.iDonateboxouter h3 {
+	color: #0092d4;
+    float: left;
+    font-size: 20px;
+    margin: 0 0 25px;
+    text-transform: none;
+    width: 100%;
+	line-height: normal !important;
+}
+
+.iDonatecharity_logo_main {
+	padding-bottom: 10px;
+    width: 100%
+}
+
+.iDonatecharity_logo_main img {
+	width: 98%;
+	margin: 10px 0;
+}
+
+.iDonaterightsection {
+	width: 100%;
+	 margin: 0;
+}
+
+.iDonaterightsection .iDonateboxouter {
+	padding: 10px 0px 10px 10px;
+}
+
+.iDonatebtnDV {
+	width: 70%;
+}
+
+.iDonatebtnDV a {
+	font-size: 12px;
+}
+
+.iDonateFundDetailContentProfile_info {
+	min-width: auto;
+    overflow-y: auto;
+}
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 360px) 
+  and (max-width: 640px) 
+  and (orientation: landscape) { 
+
+.iDonateFundDetailContentWrapperMiddle.iDonte_content_in {
+	padding: 10px;
+}
+.idonateTable_length {
+ width: 100%;
+}
+.iDonateFundDetailContentLeft-profile {
+	margin: 0;
+    width: 40%;
+	min-width: inherit;
+}
+
+.iDonateFundDetailContentRight-profile {
+    width: 60%;
+	padding: 0 0 0 10px;
+	min-width: inherit;
+}
+
+.iDonateFundDetailContentProfile_info {
+	min-width: auto;
+    overflow-y: auto;
+}
+
+.iDonateFundDetailContentRight-profileH2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0 20px;
+	line-height: normal !important;
+}
+
+.iDonatecevent_detailsH3 {
+	font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 25px;
+	line-height: normal !important;
+}
+
+.iDonatetargetDetail dl {
+	width: 138px;
+	float: left;
+}
+
+.iDonateevent_details_left {
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.iDonateevent_details_right {
+	width: 100%;
+}
+
+.iDonaterunning-total {
+	width: 100%;
+	min-width: inherit;
+}
+
+.iDonateleftDiv {
+	width: auto;
+}
+
+.iDonatetargetDetail {
+	margin-top: 0;
+    width: 60%;
+
+}
+
+.iDonatemain_sections {
+	width:100%;
+}
+
+.iDonateleftsection {
+	width:100%;
+}
+
+.iDonateboxouter {
+	width:100%;
+	overflow-y: hidden;
+}
+
+.iDonateboxouter h3 {
+	color: #0092d4;
+    float: left;
+    font-size: 20px;
+    margin: 0 0 25px;
+    text-transform: none;
+    width: 100%;
+	line-height: normal !important;
+}
+
+.iDonatecharity_logo_main {
+	padding-bottom: 10px;
+    width: 100%
+}
+
+.iDonatecharity_logo_main img {
+	width: 98%;
+	margin: 10px 0;
+}
+
+.iDonaterightsection {
+	width: 100%;
+	 margin: 0;
+}
+
+.iDonaterightsection .iDonateboxouter {
+	padding: 10px 0px 10px 10px;
+}
+
+.iDonatebtnDV {
+	width: 70%;
+}
+
+.iDonatebtnDV a {
+	font-size: 12px;
+}
+
+
+}
+
+/* iPads (portrait and landscape) ----------- */
+@media only screen 
+and (min-width : 768px) 
+and (max-width : 1024px) {
+   /* Styles */
+ 
+
+.iDonateFundDetailContentWrapperMiddle.iDonte_content_in {
+	padding: 10px;
+}
+
+.iDonateFundDetailContentLeft-profile {
+	margin: 0;
+    width: 25%;
+}
+
+.iDonateFundDetailContentRight-profile {
+    width: 60%;
+	padding: 0 0 0 10px;
+}
+
+.iDonateFundDetailContentRight-profileH2 {
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px 0 20px;
+	line-height: normal !important;
+}
+
+.iDonatecevent_detailsH3 {
+	font-size: 18px;
+    font-weight: bold;
+    margin: 0 0 25px;
+	line-height: normal !important;
+}
+
+.iDonatetargetDetail dl {
+	width: 138px;
+	float: left;
+}
+
+.iDonateevent_details_left {
+	width: 48%;
+	margin-bottom: 10px;
+}
+
+.iDonateevent_details_right {
+	width: 48%;
+}
+
+.iDonaterunning-total {
+	width: 100%;
+}
+
+.iDonateleftDiv {
+	width: auto;
+}
+
+.iDonatetargetDetail {
+	margin-top: 0;
+    width: 60%;
+
+}
+
+.iDonatemain_sections {
+	width:100%;
+}
+
+.iDonateleftsection {
+	width:30%;
+}
+
+.iDonateboxouter {
+	width:100%;
+	overflow-y: hidden;
+}
+
+.iDonateboxouter iframe {
+	height: auto;
+    max-width: 95%;
+}
+
+.iDonateboxouter h3 {
+	color: #0092d4;
+    float: left;
+    font-size: 20px;
+    margin: 0 0 25px;
+    text-transform: none;
+    width: 100%;
+	line-height: normal !important;
+}
+
+.iDonatecharity_logo_main {
+	padding-bottom: 10px;
+    width: 100%
+}
+
+.iDonatecharity_logo_main img {
+	width: 98%;
+	margin: 10px 0;
+}
+
+.iDonaterightsection {
+	width: 68%;
+	 margin: 0 0 0 10px;
+}
+
+.iDonaterightsection .iDonateboxouter {
+	padding: 10px 0px 10px 10px;
+}
+
+.iDonatebtnDV {
+	width: 70%;
+}
+
+.iDonatebtnDV a {
+	font-size: 12px;
+}
+
+
+
+
+   
+}
+
+/* ----------- iPhone 6+ ----------- */
+
+
+/* Portrait */
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  and (orientation: portrait) { 
+
+}
+
+/* Landscape */
+@media only screen 
+  and (min-width: 414px) 
+  and (max-width: 736px) 
+  and (orientation: landscape) { 
+
+}
+
+
